@@ -1,0 +1,28 @@
+body {
+    background-color: #1c0522;
+    color: white;
+}
+.sec {
+    padding: 100px;
+    background: #1c0522;
+    text-align: center;
+    line-height: 50px;
+}
+.sec h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+h4 {
+    font-size: 1.5em;
+    color: #fff;
+}
+.sec p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.github {
+    color: rgb(0, 174, 255);
+    text-decoration: underline;
+}
