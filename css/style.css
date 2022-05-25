@@ -15,6 +15,10 @@ body
     background: linear-gradient(#2b1055, #7597de);
 }
 
+i {
+    font-size: 20px;
+}
+
 header
 {
     position: absolute;
@@ -51,7 +55,7 @@ header ul li
     margin-left: 20px;
 }
 
-header ul li a 
+header ul li a
 {
     text-decoration: none;
     padding: 6px 15px;
@@ -59,14 +63,7 @@ header ul li a
     border-radius: 20px;
 }
 
-header ul li a:hover ,
-header ul li a.active
-{
-    background: #fff;
-    color: #2b1055;
-}
-
-section
+.parallax
 {
     position: relative;
     width: 100%;
@@ -78,7 +75,7 @@ section
     overflow: hidden;
 }
 
-section::before
+.parallax::before
 {
      content: '';
      position: absolute;
@@ -89,7 +86,7 @@ section::before
      z-index: 1000;
 }
 
-section img
+.parallax img
 {
     position: absolute;
     top: 0;
@@ -100,12 +97,12 @@ section img
     pointer-events: none;
 }
 
-section img#moon
+.parallax img#moon
 {
     mix-blend-mode: screen;
 }
 
-section img#mountains_front
+.parallax img#mountains_front
 {
     z-index: 10;
 }
